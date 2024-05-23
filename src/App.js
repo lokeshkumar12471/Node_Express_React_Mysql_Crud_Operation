@@ -8,10 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' exact='/' element={<Home />} />
-        <Route path='/create' exact='/create' element={<Create />} />
-        <Route path='/read/:id' exact='/read/:id' element={<Read />} />
-        <Route path='/edit/:id' exact='/edit/:id' element={<Update />} />
+        <Route path='/'  element={<Home />} />
+        <Route path='/create'  element={<Create />} />
+        <Route path='/read/:id'  element={<Read />} />
+        <Route path='/edit/:id'  element={<Update />} />
       </Routes>
     </BrowserRouter>
   );
